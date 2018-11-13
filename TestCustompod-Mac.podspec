@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TestCustompod-Mac'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'This class draws rectangle for track layer on a bezier path and fills color to it.'
 
   s.description      = <<-DESC
@@ -24,7 +24,7 @@ This class draws rectangle for track layer on a bezier path and fills color to i
   }
   s.author           = { 'santosh539' => 'santosh539@gmail.com' }
   s.source           = { :git => 'https://github.com/santosh539/TestCustompod-Mac.git', :tag => s.version.to_s }
-  s.osx.deployment_target = '10.13'
+  s.osx.deployment_target = '10.7'
   s.source_files = 'source/*'
 
 end
